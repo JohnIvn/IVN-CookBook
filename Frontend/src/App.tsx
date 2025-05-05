@@ -1,8 +1,6 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import pic1 from "./assets/BakeGourmet.png";
 import Navbar from "./components/navbar";
+import Footer from "./components/footer";
 import "./App.css";
 
 export default function Example() {
@@ -23,7 +21,6 @@ export default function Example() {
             </div>
             <div>
               <div className="mt-10">
-                {/* Decorative image grid */}
                 <div
                   aria-hidden="true"
                   className="pointer-events-none lg:absolute lg:inset-y-0 lg:mx-auto lg:w-full lg:max-w-7xl"
@@ -100,6 +97,7 @@ export default function Example() {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 }
